@@ -1,3 +1,6 @@
+## Usage
+Here is a collection of examples on how to use certain functions, such as what argument has to be passed, and from where the information came from.
+
 ```python
 infos = user.getEvaluationSettings()
 info = user.getEvaluation(infos[0]["periods"][0]["id"])
