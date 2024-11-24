@@ -1,3 +1,6 @@
+## params
+In each of the functions of this library, or those that call the api, a `params` argument can be passed. These params will be passed into the request. Here are the possible params that can be passed. These are all under the `"fields"` key, which has to be passed too. The data has to be in json.
+
 ### getUserInfo()
 ```json
 "params" : {
