@@ -21,7 +21,7 @@ To get access to the access token, you first have to retrieve necessary school i
 The link that allows you to do so is this:
 `/schools` (prefixed by the base url). This request to the API needs some parameters as well: 
 
-`page[limit]`: The maximumn number of schools the api returns.
+`page[limit]`: The maximum number of schools the api returns.
 
 `page[offset]`: Is 0 by default (don't know what it does).
 
@@ -79,5 +79,6 @@ Once you've generated an authorization link using various openid-connect librari
 `/absence-files/{folder id}`
 
 `/absence-files-states`
+
 
 `/absence-reasons`
